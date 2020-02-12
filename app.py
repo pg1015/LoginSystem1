@@ -23,7 +23,7 @@ def do_admin_login():
 
 def logout():
     session['logged_in'] = False
-return home()
+    return home()
 
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
