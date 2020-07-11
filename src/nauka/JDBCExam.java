@@ -15,7 +15,7 @@ public class JDBCExam {
 		String port = "5432";
 		String db_name = "postgres";
 		String userName = "postgres";
-		String pass = "Jack_Reacher_@2020";
+		String pass = "";
 		String url = "jdbc:postgresql://localhost:5432/postgres";
 		try {
 
